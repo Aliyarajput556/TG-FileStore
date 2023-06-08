@@ -4,15 +4,15 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	API_ID = int(os.environ.get("API_ID", "23821431"))
+	API_HASH = os.environ.get("API_HASH", "f24ce3f857cfb3846527a3cff7c0cdfc")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6064200535:AAGuVkK1bZc8MHplCdcvYes0Y6T18I_6-Ms")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "JJAnimeBOT")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001965521585"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5858749862"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "https://t.me/+co02QsdFxBg2OGU1")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001746883154")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001965521585")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -24,7 +24,7 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 
 ╭────[ **🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅**]────⍟
 │
-├🔸🤖 **My Name:** [𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐁𝐨𝐭](https://t.me/{BOT_USERNAME})
+├🔸🤖 **My Name:** [𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐁𝐨𝐭](https://t.me/{JJAnimeBOT})
 │
 ├🔸📝 **Language:** [𝐏𝐲𝐭𝐡𝐨𝐧𝟑](https://www.python.org)
 │
@@ -32,18 +32,18 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 │
 ├🔹📡 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸👨‍💻 **Developer:** [@GreyMatter_Owner](https://t.me/GreyMatter_Owner) 
+├🔸👨‍💻 **Developer:** [@Virtual_Monster](https://t.me/jjustanime) 
 │
-├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/greymatters_bots_discussion)
+├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/Request4anime)
 │
-├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/greymatter_bots)
+├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/Request4anime)
 │
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@GreyMatter_Owner](https://t.me/GreyMatter_Owner) 
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@jjustanime](https://t.me/jjustanime) 
 
-𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐢𝐬 𝐒𝐮𝐩𝐞𝐫 𝐍𝐨𝐨𝐛. 𝐉𝐮𝐬𝐭 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐟𝐫𝐨𝐦 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐃𝐨𝐜𝐬. 𝐀𝐧𝐝 𝐒𝐞𝐞𝐤𝐢𝐧𝐠 𝐇𝐞𝐥𝐩 𝐅𝐫𝐨𝐦 𝐏𝐫𝐨 𝐂𝐨𝐝𝐞𝐫𝐬\n**@GreyMatter_Bots**
+𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐢𝐬 𝐒𝐮𝐩𝐞𝐫 𝐍𝐨𝐨𝐛. 𝐉𝐮𝐬𝐭 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐟𝐫𝐨𝐦 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐃𝐨𝐜𝐬. 𝐀𝐧𝐝 𝐒𝐞𝐞𝐤𝐢𝐧𝐠 𝐇𝐞𝐥𝐩 𝐅𝐫𝐨𝐦 𝐏𝐫𝐨 𝐂𝐨𝐝𝐞𝐫𝐬\n**@Virtual_Monster**
 
 𝐈𝐟 𝐘𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐃𝐨𝐧𝐚𝐭𝐞 𝐎𝐮𝐫 𝐇𝐚𝐫𝐝 𝐖𝐨𝐫𝐤. 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐡𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫. 
 
